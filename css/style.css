@@ -2101,7 +2101,7 @@ address {
 }
 
 .service {
-  padding: 3.125rem 0rem;
+  padding: 2.1875rem 0rem;
 }
 
 .no-webp .top-service {
@@ -2175,6 +2175,11 @@ address {
   margin-bottom: 6.25rem;
 }
 
+.article-service__title {
+  max-width: 43.75rem;
+  margin: 0 auto;
+}
+
 .article-service__title:not(:last-child) {
   margin-bottom: 1.25rem;
 }
@@ -2206,7 +2211,7 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1.25rem;
+  gap: 3.125rem;
 }
 
 .article-service__row_rev {
@@ -2256,7 +2261,7 @@ address {
 }
 
 .article-service__content p:not(:last-child) {
-  margin-bottom: 1em;
+  margin-bottom: 1.875rem;
 }
 
 .article-service__content ul li {
@@ -2283,8 +2288,8 @@ address {
 
 .article-service__image {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+      -ms-flex: 0 0 42%;
+          flex: 0 0 42%;
 }
 
 .article-service__image img {
@@ -3312,18 +3317,18 @@ address {
   }
 
   .article-service__row {
-    gap: 2.75rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-
-  .article-service__row_rev {
+    gap: 2.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .article-service__row_rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 
   .article-service__row:not(:last-child) {
