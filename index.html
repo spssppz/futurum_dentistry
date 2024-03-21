@@ -5,7 +5,7 @@
   <title>Главная</title>
   <meta charset="UTF-8">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="css/style.min.css?_v=20231112131006">
+  <link rel="stylesheet" href="css/style.min.css?_v=20240319103725">
   <link rel="shortcut icon" href="img/favicon.png">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
         <div class="header__btns">
           <button class="header__btn header__btn_price">Ціни</button>
           <button class="header__btn">
-            <img src="img/icons/calendar.svg" width="21" height="21" alt="">
+            <img src="img/icons/calendar-d.svg" width="21" height="21" alt="">
           </button>
         </div>
         <div class="header__menu menu">
@@ -63,8 +63,231 @@
         </div>
         <button class="header__callback" data-da=".menu__body, 991, 0">Записатися на прийом</button>
       </div>
+      <div class="header__bottom">
+        <select class="header-sel" name="form[]">
+          <option value="1" selected>м. Київ, вул. Ломоносова 34/1А</option>
+          <option value="2">м. Київ, вул. Жилянська, 74</option>
+          <option value="3">м. Київ, вул. Петра Чаадаєва, 2В</option>
+        </select>
+      </div>
     </header>
     <main class="page">
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__top top-hero">
+            <div class="top-hero__left left-hero">
+              <div class="left-hero__descr">Зробимо вашу посмішку
+                <br>
+                здоровою та сяючою!
+              </div>
+              <h1 class="left-hero__title">«Futurum Dentistry» — Стоматологія в Києві!</h1>
+              <ul class="left-hero__list">
+                <li class="left-hero__item item-hero">
+                  <address class="item-hero__address">м. Олімпійська</address>
+                  <a class="item-hero__phone" href="tel:0960230142">096 023 01 42</a>
+                </li>
+                <li class="left-hero__item item-hero">
+                  <address class="item-hero__address">м. Васильківська</address>
+                  <a class="item-hero__phone" href="tel:0500230145">050 023 01 45</a>
+                </li>
+                <li class="left-hero__item item-hero">
+                  <address class="item-hero__address">Петра Чаадаєва, 2В
+                    <br> (парк Совки)
+                  </address>
+                  <a class="item-hero__phone" href="tel:0960230148">096 023 01 48</a>
+                </li>
+              </ul>
+            </div>
+            <div class="top-hero__right right-hero">
+              <div class="right-hero__image" data-da=".left-hero, 991, 2">
+                <span class="right-hero__decor right-hero__decor_1"></span>
+                <span class="right-hero__decor right-hero__decor_2"></span>
+
+              </div>
+              <a class="right-hero__btn btn btn_center btn_b" href="">Записатися на прийом</a>
+            </div>
+          </div>
+          <div class="hero__bottom">
+            <div class="hero__slider swiper">
+              <div class="hero__wrapper swiper-wrapper">
+                <div class="hero__slide swiper-slide slide-hero">
+                  <div class="slide-hero__content">
+                    <p>
+                      Раді презентувати
+                      «Futurum dentistry by Brashchenko»,
+                      що знаходиться в місті Київ на вулиці Чижевського, 2в (Чаадаєва, 2в).
+                    </p>
+                    <p>Відкриття стоматології відбудеться 19.08.23 і в цю честь на пацієнтів чекають приємні бонуси.</p>
+                  </div>
+                  <div class="slide-hero__image">
+                    <picture>
+                      <source srcset="img/hero/slide.webp" type="image/webp">
+                      <img src="img/hero/slide.jpg" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="hero__slide swiper-slide slide-hero">
+                  <div class="slide-hero__content">
+                    <p>
+                      Раді презентувати
+                      «Futurum dentistry by Brashchenko»,
+                      що знаходиться в місті Київ на вулиці Чижевського, 2в (Чаадаєва, 2в).
+                    </p>
+                  </div>
+                  <div class="slide-hero__image">
+                    <picture>
+                      <source srcset="img/hero/slide.webp" type="image/webp">
+                      <img src="img/hero/slide.jpg" alt="">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services-list">
+        <div class="services-list__container">
+          <h2 class="services-list__title title">Стоматологія» Futurum Dentistry»
+            пропонує наступні послуги</h2>
+          <ul class="services-list__columns">
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/01.webp" type="image/webp">
+                    <img src="img/services-list/01.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Професійна
+                  гігієна</span>
+                <span class="column-services-list__price">1250 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/02.webp" type="image/webp">
+                    <img src="img/services-list/02.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Реставрація</span>
+                <span class="column-services-list__price">1000-1800 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/03.webp" type="image/webp">
+                    <img src="img/services-list/03.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Лікування
+                  пульпіту</span>
+                <span class="column-services-list__price">1000-1500 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/04.webp" type="image/webp">
+                    <img src="img/services-list/04.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Видалення</span>
+                <span class="column-services-list__price">1000-3000 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/05.webp" type="image/webp">
+                    <img src="img/services-list/05.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Відбілювання</span>
+                <span class="column-services-list__price">від 1500 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/06.webp" type="image/webp">
+                    <img src="img/services-list/06.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Коронки</span>
+                <span class="column-services-list__price">4000-10000 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/07.webp" type="image/webp">
+                    <img src="img/services-list/07.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Імплантація</span>
+                <span class="column-services-list__price">25000 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="services-list__column column-services-list">
+              <a class="column-services-list__link" href="">
+                <span class="column-services-list__icon">
+                  <picture>
+                    <source srcset="img/services-list/08.webp" type="image/webp">
+                    <img src="img/services-list/08.png" width="39" height="39" alt="">
+                  </picture>
+                </span>
+                <span class="column-services-list__label">Вирівнювання</span>
+                <span class="column-services-list__price">500 <span>грн</span>
+                </span>
+                <span class="column-services-list__arrow">
+                  <img src="img/icons/arrow-w.svg" alt="">
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div class="services-list__bottom">
+            <a class="services-list__btn btn btn_b btn_center" href="">Дізнатися ціни</a>
+          </div>
+        </div>
+      </section>
       <section class="about">
         <div class="about__container">
           <ul class="about__columns">
@@ -123,16 +346,17 @@
                 <source srcset="img/team/01.webp, img/team/01@2x.webp" type="image/webp">
                 <img srcset="img/team/01@2x.jpg" src="img/team/01.jpg" width="388" height="388" alt="">
               </picture>
-              <div class="left-column-team__name">Бадалян Григор</div>
-              <div class="left-column-team__descr">Головний лікар стоматолог-хірург, ортопед</div>
+              <div class="left-column-team__name left-column-team__name_main">Бадалян Григор</div>
+              <div class="left-column-team__descr left-column-team__descr_main">Головний лікар стоматолог-хірург, ортопед
+              </div>
             </li>
             <li class="team-main__column left-column-team">
               <picture>
                 <source srcset="img/team/03.webp, img/team/03@2x.webp" type="image/webp">
                 <img srcset="img/team/03@2x.jpg" src="img/team/03.jpg" width="388" height="388" alt="">
               </picture>
-              <div class="left-column-team__name">Шапаренко Ігор</div>
-              <div class="left-column-team__descr">Лікар стоматолог терапевт, ендодонтист</div>
+              <div class="left-column-team__name left-column-team__name_main">Шапаренко Ігор</div>
+              <div class="left-column-team__descr left-column-team__descr_main">Лікар стоматолог терапевт, ендодонтист</div>
             </li>
             <li class="team-main__column column-team-main">
               <picture>
@@ -395,7 +619,7 @@
           <span class="whywe__decor whywe__decor_3"></span>
           <h2 class="whywe__title">Чому саме ми?</h2>
           <ul class="whywe__columns">
-            <li class="whywe__column">Наші стоматологи — це <span>висококваліфіковані професіонали</span>, які підтримуються
+            <li class="whywe__column">Наші стоматологи — це <b>висококваліфіковані професіонали</b>, які підтримуються
               <span>найсучаснішим</span> стоматологічним обладнанням та технологіями, що дає змогу надавати лише якісні
               стоматологічні послуги.
             </li>
@@ -419,7 +643,57 @@
           </div>
         </div>
       </section>
-
+      <section class="consult">
+        <div class="consult__container">
+          <h3 class="consult__subtitle">Futurum Dentistry — провідна клініка Києва, яка якісно надає послуги стоматології.
+          </h3>
+          <h2 class="consult__title title">Запрошуємо на безкоштовну консультацію у нашу клініку</h2>
+          <div class="consult__row">
+            <ul class="consult__columns">
+              <li class="consult__col col-consult">
+                <ul class="col-consult__list">
+                  <li class="col-consult__item">
+                    <a class="col-consult__mail" href="mailto:futurum.dentistry@gmail.com">futurum.dentistry@gmail.com</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="consult__col col-consult">
+                <ul class="col-consult__list">
+                  <li class="col-consult__item">
+                    <address class="col-consult__address">м. Київ, вул. Ломоносова 34/1А (м. Васильківська)</address>
+                  </li>
+                  <li class="col-consult__item">
+                    <a class="col-consult__phone" href="tel:+380500230145">+380500230145</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="consult__col col-consult">
+                <ul class="col-consult__list">
+                  <li class="col-consult__item">
+                    <address class="col-consult__address">м. Київ, вул. Жилянська, 74 (м. Олімпійська)</address>
+                  </li>
+                  <li class="col-consult__item">
+                    <a class="col-consult__phone" href="tel:+380960230142">+380960230142</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="consult__col col-consult">
+                <ul class="col-consult__list">
+                  <li class="col-consult__item">
+                    <address class="col-consult__address">м. Київ, вул. Петра Чаадаєва, 2В (парк Совки)</address>
+                  </li>
+                  <li class="col-consult__item">
+                    <a class="col-consult__phone" href="tel:+380960230148">+380960230148</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="consult__map" id="consult-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.7559713201117!2d30.475672577232977!3d50.38974747158055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8dc4aeb7de5%3A0x8383ec2f95934714!2z0LLRg9C70LjRhtGPINCu0LvRltGXINCX0LTQsNC90L7QstGB0YzQutC-0ZcsIDM0LzEsINCa0LjRl9CyLCDQo9C60YDQsNC40L3QsCwgMDIwMDA!5e0!3m2!1sru!2sru!4v1700044785593!5m2!1sru!2sru" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="callback">
         <div class="callback__container">
           <div class="callback__body">
@@ -513,7 +787,7 @@
     </footer>
   </div>
 
-  <script src="js/app.min.js?_v=20231112131006"></script>
+  <script src="js/app.min.js?_v=20240319103725"></script>
 
 </body>
 
